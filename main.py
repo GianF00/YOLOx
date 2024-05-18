@@ -24,6 +24,7 @@ image = "ordning3.jpg"
 start = time.time()
 f = open('YOLO_data.txt', 'a')
 
+###===================== Executing YOLOx =======================#####
 input_image = open(f"{image}", "rb")
 input_data={
     "nms": 0.05,
@@ -38,6 +39,7 @@ output = replicate.run(
     input=input_data
 )
 print(output)
+###===================== End of YOLOx =======================#####
 
 end = time.time()
 
