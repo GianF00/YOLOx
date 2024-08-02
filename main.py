@@ -155,7 +155,7 @@ if image is not None:
     cv2.destroyAllWindows()
 else:
     print("Error: Image could not be loaded.")
-###=========== drawing the predic bounding boxes =====================##############
+###=========== end of drawing the predic bounding boxes =====================##############
 
 ###=============== stolpdiagram för objekten som detekteras =================#####
 # Plot the bar chart with confidence and labels
